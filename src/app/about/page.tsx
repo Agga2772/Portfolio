@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
-      <h1 className="text-4xl font-bold mb-4">👋About Me</h1>
+      <h1 className="text-4xl font-bold mb-4">About Me</h1>
 
       <section className="max-w-2xl space-y-6">
         {/* Education */}
@@ -16,12 +16,12 @@ export default function About() {
             Throughout my degree, I consistently performed well in key technical subjects:
           </p>
           <ul className="list-disc pl-6 text-gray-300">
-            <li>Introduction to Databases – 90% </li>
-            <li>Introduction to Data Analysis – 73% </li>
-            <li>Advanced Front-End Web Development – 65% </li>
-            <li>Cyber Security – 60% </li>
-            <li>Applied Data Science – 64% </li>
-            <li>Team Project – 62% </li>
+            <li>Introduction to Databases  90% </li>
+            <li>Introduction to Data Analysis  73% </li>
+            <li>Advanced Front-End Web Development  65% </li>
+            <li>Cyber Security  60% </li>
+            <li>Applied Data Science  64% </li>
+            <li>Team Project  62% </li>
           </ul>
         </div>
 
@@ -49,19 +49,19 @@ export default function About() {
           </p>
           <ul className="list-disc pl-6 text-gray-300">
             <li>
-              <strong>BudgetBuddy (Final Year Project)</strong> –  
+              <strong>BudgetBuddy (Final Year Project)</strong>   
               A financial tracking app with budgeting, expense tracking, and a store locator.
             </li>
             <li>
-              <strong>COVID-19 Impact Analysis</strong> –  
+              <strong>COVID-19 Impact Analysis</strong>  
               A data-driven project analyzing market trends using R.
             </li>
             <li>
-              <strong>Digital Marketing Strategy for Three Fiends Brewhouse</strong> –  
+              <strong>Digital Marketing Strategy for Three Fiends Brewhouse</strong>   
               Developed SEO & social media campaigns to improve brand visibility.
             </li>
             <li>
-              <strong>Team Project (62%)</strong> –  
+              <strong>Team Project (62%)</strong>   
               Built a full-stack web application using modern web technologies.
             </li>
           </ul>
