@@ -119,7 +119,7 @@ export default function BudgetBuddy() {
           <h2 className="text-2xl font-semibold">Challenges & Solutions</h2>
           <p className="text-gray-300 mt-2">
             <strong>Issue:</strong> Implementing secure authentication without third-party services.<br/>
-            <strong>Solution:</strong> Developed a **custom PHP-based login system** with **hashed password storage**  
+            <strong>Solution:</strong> Developed a custom PHP-based login system with hashed password storage  
             and session management.
           </p>
           <p className="text-gray-300 mt-2">
