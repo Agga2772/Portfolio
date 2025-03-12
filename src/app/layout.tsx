@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import "./globals.css"; // Ensure this file exists
+import "./globals.css"; 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
