@@ -12,17 +12,6 @@ export default function About() {
             from the University of Huddersfield, where I developed expertise  
             in Web Development, Data Science, Cyber Security, and Digital Marketing.  
           </p>
-          <p className="text-gray-300 mt-2">
-            Throughout my degree, I consistently performed well in key technical subjects:
-          </p>
-          <ul className="list-disc pl-6 text-gray-300">
-            <li>Introduction to Databases  90% </li>
-            <li>Introduction to Data Analysis  73% </li>
-            <li>Advanced Front-End Web Development  65% </li>
-            <li>Cyber Security  60% </li>
-            <li>Applied Data Science  64% </li>
-            <li>Team Project  62% </li>
-          </ul>
         </div>
 
         {/* Technical Skills */}
