@@ -38,20 +38,20 @@ export default function About() {
           </p>
           <ul className="list-disc pl-6 text-gray-300">
             <li>
-              <strong>BudgetBuddy (Final Year Project)</strong>   
-              A financial tracking app with budgeting, expense tracking, and a store locator.
+              <strong>BudgetBuddy Final Year Project</strong>   
+               - A financial tracking app with budgeting, expense tracking, and a store locator.
             </li>
             <li>
               <strong>COVID-19 Impact Analysis</strong>  
-              A data-driven project analyzing market trends using R.
+               - A data-driven project analyzing market trends using R.
             </li>
             <li>
               <strong>Digital Marketing Strategy for Three Fiends Brewhouse</strong>   
-              Developed SEO & social media campaigns to improve brand visibility.
+               - Developed SEO & social media campaigns to improve brand visibility.
             </li>
             <li>
-              <strong>Team Project (62%)</strong>   
-              Built a full-stack web application using modern web technologies.
+              <strong>Team Project</strong>   
+               - Built a full-stack web application using modern web technologies.
             </li>
           </ul>
         </div>
