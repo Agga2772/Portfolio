@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
-import "./globals.css"; 
+import "./globals.css";
+import Footer from "./Footer"; 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -17,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://agga-portfolio.vercel.app/preview-image.png" />
       </Head>
-      <body className="bg-gray-900 text-white">
+      <body className="bg-gray-900 text-white flex flex-col min-h-screen">
         <nav className="p-4 bg-gray-800">
           <ul className="flex space-x-6">
             <li><Link href="/" className="hover:text-blue-400">Home</Link></li>
@@ -26,10 +27,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <li><Link href="/contact" className="hover:text-blue-400">Contact</Link></li>
           </ul>
         </nav>
-        {children}
+
+        <main className="flex-grow">
+          {children}
+        </main>
+
+        <Footer /> {}
       </body>
     </html>
   );
 }
+
 
 
